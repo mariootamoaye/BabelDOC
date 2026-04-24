@@ -60,7 +60,7 @@ babeldoc = "babeldoc.cli:main"
 packages = ["babeldoc"]
 
 [tool.ruff]
-line-length = 88
+line-length = 100
 target-version = "py310"
 
 [tool.ruff.lint]
