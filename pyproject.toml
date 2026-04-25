@@ -80,7 +80,8 @@ ignore_missing_imports = true
 testpaths = ["tests"]
 asyncio_mode = "auto"
 # Removed --cov flags so a plain `pytest` run doesn't require pytest-cov
-addopts = "-v"
+# -p no:warnings keeps output clean during local dev
+addopts = "-v -p no:warnings"
 
 [tool.coverage.run]
 source = ["babeldoc"]
