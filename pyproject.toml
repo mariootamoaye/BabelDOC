@@ -60,7 +60,7 @@ babeldoc = "babeldoc.cli:main"
 packages = ["babeldoc"]
 
 [tool.ruff]
-line-length = 100
+line-length = 88  # personal preference: match black's default
 target-version = "py310"
 
 [tool.ruff.lint]
