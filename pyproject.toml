@@ -86,3 +86,9 @@ addopts = "-v -p no:warnings"
 [tool.coverage.run]
 source = ["babeldoc"]
 omit = ["tests/*"]
+
+[tool.coverage.report]
+# Show lines that are missing coverage in the terminal report
+show_missing = true
+# Only report files with less than 100% coverage
+skip_covered = false
