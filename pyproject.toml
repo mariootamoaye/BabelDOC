@@ -92,5 +92,5 @@ omit = ["tests/*"]
 show_missing = true
 # Only report files with less than 100% coverage
 skip_covered = false
-# Lowered from 80 to 70 while I'm still learning the codebase
-fail_under = 70
+# Raised to 75 now that I have a better handle on the codebase
+fail_under = 75
