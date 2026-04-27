@@ -92,3 +92,5 @@ omit = ["tests/*"]
 show_missing = true
 # Only report files with less than 100% coverage
 skip_covered = false
+# Personal preference: ignore files below 80% coverage threshold in CI
+fail_under = 80
